@@ -1,0 +1,45 @@
+.div1 {background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.div2 {background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 125px;
+}
+.div3 {background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 125px;
+}
+
+.div4 {background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+
+.div5 {background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 65px;
+    transform: rotate(45deg);
+}
+.div5::after {
+    content: "★";
+    background-color: white;
+    position: absolute;
+    padding: 12px;
+    top: 30px;
+    left: 30px;
+	right: 30px;
+    border-radius: 80%;
+    transform: rotate(-40deg);
+}
